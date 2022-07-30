@@ -1,0 +1,722 @@
+/**************************
+ * ****************************
+ * **************************
+ * 
+ * App Lap Default css file
+ * 
+ * ****************************
+ * **********************************
+ * **********************************/
+
+@font-face {
+	font-family: "Poppins" ;
+	src: url('fonts/Poppins-Regular.woff') format('woof');
+}
+@font-face {
+	font-family: "Poppins" ;
+	src: url('Poppins-SemiBold.woff') format('woof');
+}
+@font-face {
+	font-family: "Poppins" ;
+	src: url('Poppins-Bold.woff') format('woof');
+}
+
+
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+/*header*/
+.header_area {
+	overflow: hidden;
+	margin: 40px 0;
+}
+.container {}
+
+.logo {
+}
+.logo img{
+}
+.mainmenu {
+	overflow: hidden;
+	width: 70%;
+	float: left;
+	height: 60px;
+	padding-top: 2px;
+}
+ul#appmemu {
+	padding: 0;
+	list-style: none;
+}
+.mainmenu ul#appmemu li {
+	display: inline-block;
+}
+.mainmenu ul#appmemu li a {
+	font-size: 20px;
+	color: #242f51;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 5px 14px;
+	transition: 0.5s;
+}
+.mainmenu ul#appmemu li a:hover{
+	color: #fcae61;
+	border-radius: 8px;
+	padding: 8px 14px;
+}
+
+.try_button {
+	overflow: hidden;
+}
+.try_button a {
+	background: #2500f9;
+	padding: 10px 30px;
+	display: block;
+	border-radius: 39px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.5s;
+	text-align: center;
+}
+.try_button a:hover {
+	color: #C9DCFC;
+}
+
+.mainslider_area {
+	background-image: url('assets/image/slider-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+.slider_main {}
+
+.slider_content {
+	float: left;
+	width: 55%;
+	margin-top: 19%;
+}
+.slider_content i {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	background: #feaa25;
+	padding: 6px;
+	border-radius: 50%;
+	color: #fff;
+}
+.slider_content p {
+	display: inline;
+	color: #242f51;
+	font-size: 16px;
+}
+.slider_content h2~p{
+	display: block;
+	color: #242f51;
+	font-size: 17px;
+	margin: 0;
+}
+.slider_content h2 {
+	font-size: 60px;
+	color: #242f51;
+	font-family: 'Poppins', sans-serif;
+	line-height: 75px;
+	margin: 30px 0;
+}
+.slider_content a {
+	padding: 10px;
+	background: #2500f9;
+	color: #fff;
+	font-weight: bold;
+}
+.slider_try {
+	overflow: hidden;
+	margin-top: 7%;
+}
+
+.slider_try a {
+    padding: 10px;
+    background: #2500f9;
+    color: #fff;
+    font-weight: bold;
+    width: 139px;
+    height: 41px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    border-radius: 36px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+.slider_try a ~ a{
+	color: #2500f9;
+	width: 26%;
+	background: none;
+}
+.slider_img {
+	width: 45%;
+	overflow: hidden;
+}
+.slider_img img {
+	width: 90%;
+}
+
+/*.feature_area {
+	margin: 125px;
+}
+.feature_left {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.feature_left img{
+	width: 90%;
+}
+.feature_right {
+	overflow: hidden;
+}
+.feature_icon {
+	float: left;
+	margin-right: 20px;
+}
+.feature_content {
+	overflow: hidden;
+}
+.feature_head {
+	margin-bottom: 80px;
+}
+.feature_left .feature_header{}
+.feature_left .feature_footer{}
+
+.feature_right .head {
+	display: block;
+	margin-right: 20px;
+	float: left;
+	overflow: hidden;
+}*/
+/*
+
+
+
+
+.smart_jackpot_area {}
+
+.smart_jackpot_area .jackpot_left {
+	float: left;
+	width: 45%;
+	border-right: 2px solid #ddd;
+	margin-right: 4%;
+	padding-right: 5%;
+}
+.smart_jackpot_area .jackpot_left h2 {
+	font-size: 41px;
+}
+.smart_jackpot_area .jackpot_right p {
+	display: block;
+	width: 86%;
+	height: 20%;
+	margin-bottom: 25px;
+}
+.jackpot_right {
+	width: 45%;
+	float: left;
+	height: 50%;
+}*/
+.our_app_area {}
+.ultimate_feature {}
+.pricing_area {}
+.meet_client_area {}
+.download_app_area {}
+.footer_area {}
+
+/*ifads;o[ga*/
+.feature_area {
+
+}
+.feature_left {
+	float: left;
+	margin-right: 5%;
+	width: 45%;
+}
+.feature_left img {
+	width: 450px;
+}
+.feature_area {
+	overflow: hidden;
+	margin-bottom: 10%;
+	margin-top: 4%;
+}
+.feature_right {
+	width: 50%;
+	overflow: hidden;
+}
+.feature_right .feature_head {
+	margin-bottom: 15%;
+}
+.feature_right .feature_head {}
+.feature_right .feature_head h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature_right .feature_head p {
+
+}
+
+.feature_r_content {
+
+}
+/*
+=========================================
+developed by mahmud_kuet_cse_2k11
+mahmudkuet11@gmail.com
+=========================================
+
+
+dedicated to rrfoundation.net
+-----------------------------------
+special thanks to Rasel Ahmed.... :)  
+=========================================
+*/
+
+
+
+
+.header_area{}
+.container{}
+.logo{}
+.mainmenu {
+    width: 100%;
+}
+.try_button{}
+.mainslider_area{}
+.slider_main{}
+.slider_content{}
+.fa-solid{}
+.fa-globe{}
+.slider_try{}
+.slider_img{}
+.feature_area{}
+.feature_left{}
+.feature_right{}
+.feature_head{}
+.feature_r_content{}
+.feature_content{}
+.feature_content h3 {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.feature_content p{}
+.feature_content .feature_icon {
+	float: left;
+	margin-right: 5%;
+}
+.smart_jackpot_area {
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+.jackpot_left {
+	border-right: 2px solid saddlebrown;
+	margin-right: 5%;
+}
+.jackpot_left h2 {
+	font-weight: 700;
+	font-family: 'Poppins';
+	color: #242f51;
+}
+.jackpot_bottom .jackpot_content h4:first-child{
+	margin: 0;
+	font-size: 20px;
+	color: blue;
+}
+
+
+.jackpot_right{}
+.jackpot_right p {
+}
+.jackpot_content {
+
+}
+.jackpot_content:last-child{
+	margin-right: 0;
+}
+.jackpot_content img {
+
+}
+.jackpot_content 
+h4.color_red,
+h4.color_blue,
+h4.color_green {
+	margin: 20px 0;
+}
+
+.jackpot_content h4.color_red {
+	font-size: 20px;
+	color: #f55767;
+}
+.jackpot_content h4.color_blue {
+	font-size: 20px;
+	color: #2563ff;
+}
+.jackpot_content h4.color_green {
+	font-size: 20px;
+	color: #40975f;
+}
+
+.jackpot_content p {
+	margin: 0;
+}
+.smart_jackpot{}
+.latest_code_area {
+	margin-top: 0%;
+	overflow: hidden;
+}
+.jackpot_bottom {
+	overflow: hidden;
+	margin-bottom: 10%;
+}
+.pricing_content {
+    padding: 20px 0;
+}
+.code_left {
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+	background: green;
+	overflow: hidden;
+}
+.code_left img{
+
+}
+.code_left .code_righ {
+	margin-right: 15%;
+}
+.code_right {
+	overflow: hidden;
+	width: 44%;
+	padding-top: 100px;
+}
+.code_right h2 {
+    font-size: 44px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #242f51;
+}
+.code_right p {
+    margin: 28px 0;
+    color: #616368;
+}
+
+.code_right a {
+	padding: 13px 27px;
+	background: blue;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 30px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+.our_app_area {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background: url('assets/image/app-bg.jpg');
+    background-size: cover;
+}
+.our_app_area:before {
+	content: "";
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.app_header {
+    margin: 50px auto;
+}
+.app_header h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #242f51;
+    font-family: 'Poppins';
+}
+.app_content {
+	width: 27%;
+	float: left;
+	padding: 3%;
+}
+
+
+.app_content {
+	margin: 0 auto;
+}
+.app_content h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+}
+.app_content p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #242f51;
+}
+.app_content img {
+	margin-bottom: 30px;
+}
+.ultimate_feature {
+	background-image: url('assets/image/ultimate_feaure.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 45%;
+}
+.ultimate_feature a{
+}
+.ultimate_feature .btn {
+	background: #2500FB;
+	color: #fff;
+	padding: 13px 35px;
+	border-radius: 30px;
+	margin-top: 23px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.ultimate_feature .btn:hover {
+	background:#D1E3FB;
+	color: #000000;
+	transition: 0.5s;
+}
+.ultimate_header {
+
+}
+.ultimate_header{}
+.ultimate_header h1 {
+	font-family: 'Poppins';
+	font-weight: 700;
+	color: #242f51;
+}
+.ultimate_content {
+
+}
+.ulitimate_single {
+	float: left;
+	padding-right: 100px;
+	padding-top: 60px;
+}
+.ulitimate_single img {
+    margin-bottom: 25px;
+}
+.ulitimate_single h4 {}
+.ulitimate_single p {}
+.ultimate_feature a {
+}
+
+
+.pricing_area {
+	padding: 150px 0;
+}
+.pricing_header{}
+.pricing_content{}
+.price_option{}
+.price_option {
+    border: 3px solid #ebebeb;
+    border-radius: 30px;
+    padding: 11px 0;
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pricing_content .price_option a {
+    background: #2500F8;
+    border-radius: 30px;
+    padding: 15px 32px;
+    color: #fff;
+    text-decoration: none;
+}
+.pricing_content .price_option a:last-child{
+	color: #616368;
+	font-size: 16px;
+	background: #FFFFFF;
+	text-decoration: none;
+}
+
+.pricing_single{}
+.pricing_single .btn{
+	background: #2500FB;
+	color: #fff;
+	padding: 13px 35px;
+	border-radius: 30px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+}
+
+
+.pricing_area .col-md-3.offset-md-3
+.pricing_single{}
+.pricing_area .col-md-3.offset-md-3 .pricing_single {
+    box-shadow: 0px 0px 30px 6px #ddd;
+}
+.pricing_single:last-of-type {
+    padding: 15px;
+    border: 3px solid #ebebeb;
+}
+.pricing_single a {
+    display: inline-block;
+    padding: 20px 0 0px;
+}
+.pricing_single .price_head {
+	background: rgb(244,247,249);
+	background: linear-gradient(360deg, rgba(244,247,249,1) 50%, rgba(255,255,255,1) 100%);
+    margin: -15px;
+    padding: 10px 0;
+}
+.pricing_single .price_head p {
+    color: #999ca5;
+    font-size: 16px;
+}
+.pricing_single .price_head p span {
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 700;
+}
+.pricing_single .price_list {}
+.pricing_single .price_list {
+    margin: 35px 0;
+}
+.price_head{}
+.price_head h3 {
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 700;
+}
+.price_list{}
+.price_list ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.price_list ul li {
+    display: block;
+    padding: 10px 0;
+    color: #999ca5;
+}
+.trail{}
+.meet_client_area {
+    padding-bottom: 70px;
+    border-bottom: 4px solid #F4F4F4;
+}
+.meet_left{}
+.meet_left img{
+	width: 100%;
+}
+.meet_right{}
+.meet_right h1 {
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.meet_feadback {
+    margin-bottom: 60px;
+}
+.meet_feadback i {
+	color: gold;
+}
+.meet_author img{
+	float: left;
+	margin-right: 24px;
+}
+.meet_feadback h3 {
+    margin: 16px 0;
+    font-weight: 600;
+}
+.fa{}
+.fa-star{}
+.meet_author h3 {
+    font-weight: 700;
+    color: #242f51;
+}
+.download_app_area {
+    padding: 90px 0px;
+    background: url('assets/image/download.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.download_app_area h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.store_img_{}
+.footer_area{
+	padding: 50px 0;
+	background: #09142e;
+	background-image: url('assets/image/');
+}
+.footer_area p.text-center {
+    color: #e6e6e6;
+    margin: 25px;
+}
+.footer_logo{}
+.footer_logo img {
+    margin: 50px;
+}
+.footer_menu {
+    margin-bottom: 50px;
+}
+.footer_menu ul.footmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer_menu ul.footmenu li {
+    display: inline;
+}
+.footer_menu ul.footmenu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.footmenu{}
+
+
+.footer_social {}
+.footer_social ul#social {margin: 0; padding: 0; list-style: none;}
+.footer_social ul#social li{display: inline;}
+.footer_social ul#social li a {
+	color: #fff;
+    font-size: 22px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.footer_social ul#social li:hover a{
+	background: #fff;
+	border: 2px solid #69142e;
+	color: #09142e;
+}
+.footer_social ul#social li a i {
+
+}
+.fa-facebook{}
+.fa-twitter{}
+.fa-linkedin{}
+.fa-behance{}
+.fa-github{}
